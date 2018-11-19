@@ -9,7 +9,7 @@ client.on('message', message => {
     let messageArray = message.content.split(" ");
     let cmd = messageArray[0];
     let args = messageArray.slice(0);
-    let a = require("./https://raw.githubusercontent.com/jack12n/Tbon-mamak/master/meow.json");
+    let a = require("./meow.json");
     if(cmd === prefix + `me`) {
     moment.locale('ru-ly');
     if(!a[message.author.id]){
@@ -36,7 +36,7 @@ client.on('message', message => {
     let messageArray = message.content.split(" ");
     let cmd = messageArray[0];
     let args = messageArray.slice(0);
-    let a = require("./https://raw.githubusercontent.com/jack12n/Tbon-mamak/master/meow.json");
+    let a = require("./meow.json");
     if(!a[message.author.id]){
     a[message.author.id] = {
     a: 0

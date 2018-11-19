@@ -1,0 +1,18 @@
+{
+  "name": "sfesgsegegay",
+  "version": "2.1.0",
+  "description": "efesfesfs",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "forever": "^0.15.3",
+    "fs": "0.0.1-security",
+    "moment": "^2.22.2"
+  },
+  "engines": {
+    "node": "8.4.0"
+  }
+}
